@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAb 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+        }
+
+        nav {
+            width: 200px;
+            background-color: #caab83;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            height: 100vh;
+        }
+
+        nav a {
+            display: block;
+            color: #000000;
+            padding: 5px;
+            text-decoration: none;
+            margin: 10px 0;
+            border: #000000 solid 3px;
+            border-radius: 12px;
+        }
+
+        nav a:hover {
+             background-color: #000000;
+             color: #ffffff
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #caab83;
+            color: white;
+            border-radius: 50px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #000000;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        img {
+            width: 400px;
+            height: 450px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .center-div {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000;
+            color: white;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>Menu</h2>
+        <a href="about.html"><b>About Me</b></a>
+        <a href="mycat.html"><b>My Cat</b></a>
+        <a href="hobby.html"><b>My Hobby</b></a>
+    </nav>
+    <main>
+        <header>
+            <h1>
+                <p>Welcome to my Cafe</p>
+            </h1>
+        </header>
+        <div class="center-div">
+            <img src="CHANOM.jpg" alt="photo of a cat">
+            <p class="caption">This the main content page. Click on the menu items to navigate to different sections</p>
+        </div>
+    </main>
+    <footer>
+        <p style="color: white;">Contact me: <a href="https://th.y8.com/">examp@example.com</a></a></p>
+        <p style="color: white;">Follow me on:
+            <a href="https://www.facebook.com/?locale=th_TH">Facebook</a></a>|
+            <a href="https://www.tiktok.com/th-TH/">Tiktok</a></a>|
+            <a href="https://www.instagram.com/">Instagram</a></a>
+        </p>
+        <p style="color: white;">© 2024 My Lab</p>
+    </footer>
+</body>
+
+</html>
