@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: rgb(245, 172, 15);
-    color: #ffffff;
+    color: #rgb(245,172,15);
     text-align: center;
     padding: 20px 0;
 }
@@ -33,6 +33,7 @@ header h1 {
 .section.my-class,
 .section.my-favorite {
     background-color: rgb(255, 242, 204);
+
 }
 
 .section.moods,
