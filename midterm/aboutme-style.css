@@ -1,0 +1,39 @@
+
+body {
+    background-color: #caab83; /
+    font-family: Arial, sans-serif; 
+}
+
+
+h1, h2 {
+    color: #2f4f4f; /
+}
+
+/
+p {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+a {
+    color: #caab83; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ff6347; /
+}
+
+/
+ul, ol {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+img {
+    border-radius: 8px;
+    border: 2px solid #ddd; 
+}
