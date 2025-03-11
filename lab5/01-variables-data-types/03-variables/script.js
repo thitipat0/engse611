@@ -1,45 +1,60 @@
-let name;
-let surname;
+// Ways to declare a variable
+// `var`, `let`, & `const`
 
-let surName;
+let firstName = 'John';
+const lastName = 'Doe';
+let age = 30;
 
+console.log(age);
 
-let cats=["cherry","joss"];
+// Naming Conventions
+// - Only letters, numbers, underscores and dollar signs
+// - Can't start with a number
 
+// Multi-Word Formatting
+// firstName = camelCase
+// first_name = underscore
+// FirstName = PascalCase
+// firstname = lowercase
 
-let schoolnam;
-let school_name;
+// We can re-assign `let` variables. If you change `age` to use `const`, you will get an error
+age = 31;
+console.log(age);
 
-let mySchoolName;
-let my_school_name;
+// With let, we can declare a value without assigning a value
+let score;
+score = 1;
+console.log(score);
 
+if (true) {
+  score = score + 1;
+}
 
-my_name = "Thanit";
+console.log(score);
 
-console.log(my_name);
+const x = 100;
 
-let a=1;
-let b=2;
-let c=1.3;
+// We can not re-assign a const variable
+// x = 200 // Will result in an error
 
-console.log(a, typeof a );
-console.log(b, typeof b );
-console.log(c, typeof c );
+// We can still manipulate arrays and objects using const
+const arr = [1, 2, 3, 4];
+arr.push(5);
+console.log(arr);
 
-let bigNumber;100000000000
-console.log(bigNumber, typeof bugNumber);
+const person = {
+  name: 'Brad',
+};
+person.name = 'John';
+person.email = 'brad@gmail.com';
+console.log(person);
 
+// Declare multiple values at once
+let a, b, c;
 
+const d = 10,
+  e = 20,
+  f = 30;
 
-console.log(cats, typeof cats);
-
-let os+debugger;eted= fa;self;
-
-console.log(is_deleted, typeof is_deleted);
-
-a=1;
-console.log(a, typeof a);
-
-a = "1"; 
-console.log(a, typeof a);
-a = a+2;
+console.log(d);
+console.log(a);
